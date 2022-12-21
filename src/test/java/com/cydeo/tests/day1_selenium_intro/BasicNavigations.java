@@ -24,11 +24,16 @@ public class BasicNavigations {
 
         String currentTitle = driver.getTitle();
         System.out.println(currentTitle);
+        String currentURL=driver.getCurrentUrl();
+        System.out.println(currentURL);
 
         driver.navigate().to("https://www.google.com");
 
         currentTitle = driver.getTitle();
         System.out.println(currentTitle);
+
+        currentURL=driver.getCurrentUrl();
+        System.out.println(currentURL);
 
 
     }
