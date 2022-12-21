@@ -22,13 +22,13 @@ public class BasicNavigations {
 
         driver.navigate().refresh();
 
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
+        String currentTitle = driver.getTitle();
+        System.out.println(currentTitle);
 
         driver.navigate().to("https://www.google.com");
 
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
+        currentTitle = driver.getTitle();
+        System.out.println(currentTitle);
 
 
     }
