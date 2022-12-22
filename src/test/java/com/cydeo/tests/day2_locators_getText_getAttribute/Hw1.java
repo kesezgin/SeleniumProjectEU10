@@ -31,7 +31,7 @@ public class Hw1 {
         //Expected: “Wooden spoon - Etsy”
         String expectedTitle = "Wooden spoon - Etsy";
         String actualTitle = driver.getTitle();
-        System.out.println(actualTitle);
+        System.out.println(actualTitle);//
         if(expectedTitle.equals(actualTitle)){
             System.out.println("Title is verified");
         } else {

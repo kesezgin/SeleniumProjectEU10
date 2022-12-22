@@ -10,7 +10,7 @@ public class Hw3 {
     public static void main(String[] args) {
 
 
-        //1- Open a chrome browser
+        //1- Open a chrome browser//
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();

@@ -10,7 +10,7 @@ public class Hw4 {
 
     public static void main(String[] args) {
 
-        //TC #4: Practice Cydeo – Class locator practice
+        //TC #4: Practice Cydeo – Class locator practice//
         //1- Open a chrome browser
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();

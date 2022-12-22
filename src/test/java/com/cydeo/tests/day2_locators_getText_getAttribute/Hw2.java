@@ -22,7 +22,7 @@ public class Hw2 {
         driver.get("http://zero.webappsecurity.com/login.html");
 
         //3. Verify header text
-        //Expected: “Log in to ZeroBank”
+        //Expected: “Log in to ZeroBank”//
         String expectedHeaderText = "Log in to ZeroBank";
         WebElement actualText = driver.findElement(By.tagName("h3"));
         if(expectedHeaderText.equals(actualText.getText())){
